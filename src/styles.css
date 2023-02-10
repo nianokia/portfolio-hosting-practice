@@ -55,6 +55,13 @@ a:hover {
   text-decoration: none;
   text-transform: capitalize;
 }
+.greeting {
+  text-align: center;
+}
+
+.contact-heading {
+  text-align: center;
+}
 
 .contact-link {
   background: var(--primary-color);
