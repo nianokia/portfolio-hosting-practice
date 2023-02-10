@@ -38,10 +38,6 @@ p {
   text-align: center;
 }
 
-a:hover {
-  color: blue;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -67,6 +63,10 @@ a:hover {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.contact-link:hover {
+  color: antiquewhite;
 }
 
 .about-link {
@@ -117,6 +117,10 @@ a:hover {
   text-transform: capitalize;
 }
 
+.app-links:hover {
+  color: antiquewhite;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -133,8 +137,7 @@ a:hover {
 
   .app-links {
     display: block;
-    width: 100%;
     text-align: center;
-    margin: 20px auto;
+    margin: 0 20px;
   }
 }
