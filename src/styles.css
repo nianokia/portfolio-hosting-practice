@@ -10,18 +10,18 @@ body {
 }
 
 h1,
-h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
   font-size: 48px;
+  text-align: start;
 }
 
 h3 {
@@ -97,6 +97,7 @@ a:hover {
 .descriptions {
   background: none;
   padding: 0;
+  text-align: start;
 }
 
 .app-links {
@@ -107,4 +108,26 @@ a:hover {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .descriptions {
+    text-align: center;
+  }
+
+  .app-links {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
 }
